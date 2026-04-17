@@ -10,8 +10,7 @@ brew install elembio
 ## Upgrade
 
 ```bash
-brew update
-brew upgrade elembio
+brew tap --force elembio/tap && brew upgrade elembio
 ```
 
 ## Uninstall
