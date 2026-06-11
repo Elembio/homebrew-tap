@@ -12,22 +12,22 @@ class Elembio < Formula
   on_macos do
     on_arm do
       url "#{S3_BASE}/#{version}/elembio-#{version}-darwin-arm64"
-      sha256 "75860a8e3fbcf480850e14fb47c434c349f575da160d0b12069a9e43d3bc16e6"
+      sha256 "1e73b8a44ca6353215763169c7860f02665d9b1b03a74b5cbcc306ff07551329"
     end
     on_intel do
       url "#{S3_BASE}/#{version}/elembio-#{version}-darwin-amd64"
-      sha256 "80dbf974d63101cf8a90edf95344a32a2080407f6ba2c905a6bfdda00ec1e747"
+      sha256 "8d14cdd19837dd795639af206c934ed5e98700b6179282bc004dc2f9c5cdb1f2"
     end
   end
 
   on_linux do
     on_arm do
       url "#{S3_BASE}/#{version}/elembio-#{version}-linux-arm64"
-      sha256 "fa255544c2d282d0b14d39e79d22f0e4760a5ae52857ca6a8d8bedd4056f77ff"
+      sha256 "5665529c83940acfc66187127134fefaba6258bf5c4f328fa899050019bb86c5"
     end
     on_intel do
       url "#{S3_BASE}/#{version}/elembio-#{version}-linux-amd64"
-      sha256 "197ae89277c7bb6df1c75581140857fdd377c7c4149ab9c967403f54f44c1580"
+      sha256 "5b2d2f4aff31c1085333ff134dac86b7dfb96a7b553bd97e008eedaadb73c201"
     end
   end
 
