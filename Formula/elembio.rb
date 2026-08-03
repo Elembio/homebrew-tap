@@ -4,7 +4,7 @@
 class Elembio < Formula
   desc "CLI for the Element Biosciences Cloud API"
   homepage "https://www.elembio.io"
-  version "1.1.0"
+  version "1.1.1"
   license "BSD-3-Clause"
 
   S3_BASE = "https://elembio-cloud-downloads.s3.us-west-2.amazonaws.com/elembio-cli/releases"
@@ -12,22 +12,22 @@ class Elembio < Formula
   on_macos do
     on_arm do
       url "#{S3_BASE}/#{version}/elembio-#{version}-darwin-arm64"
-      sha256 "b1ef1ca232a45014167be97568e5483f0ced254152f873fba3b8cce2f3eb46b5"
+      sha256 "7fc6cebb875ecf9a3587449e808cacbada006124630805bc3d9d385a03419b8a"
     end
     on_intel do
       url "#{S3_BASE}/#{version}/elembio-#{version}-darwin-amd64"
-      sha256 "31ae80b9190d40e87b578dcf1d2361eae7d916b33caf4531b68860aba7cffb45"
+      sha256 "c8ed123f1cdd385adfe5e44763c130c27d692172fb3c6872eb4f7ae7ba160bcb"
     end
   end
 
   on_linux do
     on_arm do
       url "#{S3_BASE}/#{version}/elembio-#{version}-linux-arm64"
-      sha256 "47a3032e84c283b275572f4740d621fdbd1235c184a1291380cfa1a7b5ea8c82"
+      sha256 "0932245e781200bb98e2b6220e2d38926f4b65ff2a5cc8a1d12f63315872e8d3"
     end
     on_intel do
       url "#{S3_BASE}/#{version}/elembio-#{version}-linux-amd64"
-      sha256 "0c2bd3c25d8147db410ee4d8bd2bb5acbc66886176ddb177fc6887f783fcde6e"
+      sha256 "6be0821eaeb74f45fba98cd6a0bb59b0d697db10181de2a15dfe236af65903e2"
     end
   end
 
